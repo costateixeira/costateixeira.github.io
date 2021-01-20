@@ -28,12 +28,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "./fhir.schema.json#/definitions/OperationOutcome"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                  "$ref": "./OperationOutcome.xsd"
                 }
               }
             }
@@ -43,12 +43,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CapabilityStatement"
+                  "$ref": "./fhir.schema.json#/definitions/CapabilityStatement"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/CapabilityStatement.xsd"
+                  "$ref": "./CapabilityStatement.xsd"
                 }
               }
             }
@@ -82,12 +82,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "./fhir.schema.json#/definitions/OperationOutcome"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                  "$ref": "./OperationOutcome.xsd"
                 }
               }
             }
@@ -105,12 +105,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/AllergyIntolerance"
+                  "$ref": "./fhir.schema.json#/definitions/AllergyIntolerance"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/AllergyIntolerance.xsd"
+                  "$ref": "./AllergyIntolerance.xsd"
                 }
               }
             }
@@ -143,12 +143,12 @@
           "content": {
             "application/fhir+json": {
               "schema": {
-                "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/AllergyIntolerance"
+                "$ref": "./fhir.schema.json#/definitions/AllergyIntolerance"
               }
             },
             "application/fhir+xml": {
               "schema": {
-                "$ref": "https://hl7.org/fhir/R4/AllergyIntolerance.xsd"
+                "$ref": "./AllergyIntolerance.xsd"
               }
             }
           }
@@ -159,12 +159,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "./fhir.schema.json#/definitions/OperationOutcome"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                  "$ref": "./OperationOutcome.xsd"
                 }
               }
             }
@@ -182,12 +182,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/AllergyIntolerance"
+                  "$ref": "./fhir.schema.json#/definitions/AllergyIntolerance"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/AllergyIntolerance.xsd"
+                  "$ref": "./AllergyIntolerance.xsd"
                 }
               }
             }
@@ -224,12 +224,12 @@
           "content": {
             "application/fhir+json": {
               "schema": {
-                "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/AllergyIntolerance"
+                "$ref": "./fhir.schema.json#/definitions/AllergyIntolerance"
               }
             },
             "application/fhir+xml": {
               "schema": {
-                "$ref": "https://hl7.org/fhir/R4/AllergyIntolerance.xsd"
+                "$ref": "./AllergyIntolerance.xsd"
               }
             }
           }
@@ -240,12 +240,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "./fhir.schema.json#/definitions/OperationOutcome"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                  "$ref": "./OperationOutcome.xsd"
                 }
               }
             }
@@ -263,12 +263,12 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/AllergyIntolerance"
+                  "$ref": "./fhir.schema.json#/definitions/AllergyIntolerance"
                 }
               },
               "application/fhir+xml": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/AllergyIntolerance.xsd"
+                  "$ref": "./AllergyIntolerance.xsd"
                 }
               }
             }
