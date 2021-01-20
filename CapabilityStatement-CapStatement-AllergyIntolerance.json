@@ -1,0 +1,63 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "CapStatement-AllergyIntolerance",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2/><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><h3>Documentation</h3>\n<ul>\n<li>one item</li>\n<li>another item</li>\n</ul>\n</div></td></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>AllergyIntolerance</td><td><a href=\"xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance\">xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance</a></td><td>y</td><td></td><td>y</td><td>y</td></tr></table></div>"
+  },
+  "url": "xxxhttp://somewhere.org/fhir/uv/myig/CapabilityStatement/CapStatement-AllergyIntolerance",
+  "version": "0.1.0-test",
+  "status": "draft",
+  "date": "2020-01-01",
+  "publisher": "xxxYour Work Group",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "xxxhttp://hl7.org/Special/committees/[something]"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001"
+        }
+      ]
+    }
+  ],
+  "kind": "requirements",
+  "fhirVersion": "4.0.1",
+  "format": [
+    "json",
+    "xml"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "documentation": "### Documentation\n* one item\n* another item",
+      "resource": [
+        {
+          "type": "AllergyIntolerance",
+          "profile": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance",
+          "interaction": [
+            {
+              "code": "read",
+              "documentation": "### Read : this GETs you the resource"
+            },
+            {
+              "code": "update"
+            },
+            {
+              "code": "create"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

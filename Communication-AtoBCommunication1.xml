@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Communication xmlns="http://hl7.org/fhir">
+  <id value="AtoBCommunication1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>category</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/communication-category reminder}">Reminder</span></p><p><b>priority</b>: urgent</p></div>
+  </text>
+  <status value="completed"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/communication-category"/>
+      <code value="reminder"/>
+    </coding>
+  </category>
+  <priority value="urgent"/>
+</Communication>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="CapStatement-AllergyIntolerance"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2/><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><h3>Documentation</h3>
+<ul>
+<li>one item</li>
+<li>another item</li>
+</ul>
+</div></td></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>AllergyIntolerance</td><td><a href="xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance">xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance</a></td><td>y</td><td></td><td>y</td><td>y</td></tr></table></div>
+  </text>
+  <url value="xxxhttp://somewhere.org/fhir/uv/myig/CapabilityStatement/CapStatement-AllergyIntolerance"/>
+  <version value="0.1.0-test"/>
+  <status value="draft"/>
+  <date value="2020-01-01"/>
+  <publisher value="xxxYour Work Group"/>
+  <contact>
+    <telecom>
+      <system value="url"/>
+      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="json"/>
+  <format value="xml"/>
+  <rest>
+    <mode value="server"/>
+    <documentation value="### Documentation&#xA;* one item&#xA;* another item"/>
+    <resource>
+      <type value="AllergyIntolerance"/>
+      <profile value="xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance"/>
+      <interaction>
+        <code value="read"/>
+        <documentation value="### Read : this GETs you the resource"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+    </resource>
+  </rest>
+</CapabilityStatement>

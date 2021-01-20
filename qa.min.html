@@ -1,0 +1,295 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 32, errors = 9, warn = 7, info = 0 -->
+<head>
+  <title>xxxYourComputableMyIGNameHere : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for xxxYourComputableMyIGNameHere</h1>
+ <p>Generated Wed Jan 20 15:07:02 CET 2021, FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = <a href="xxxhttp://somewhere.org/fhir/uv/myig">xxxhttp://somewhere.org/fhir/uv/myig</a> (<a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="c:\implementationguides\my-first-ig\output\qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.57</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = xxxexample.fhir.uv.myig, Canonical = xxxhttp://somewhere.org/fhir/uv/myig</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0-test: <span stlye="color: marron; font-weight: bold">Version does not conform to semver rules</span></td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">5 Suppressed Issues</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\ImplementationGuides\my-first-ig\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> xxxexample.fhir.uv.myig</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0-test</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">xxxhttp://somewhere.org/fhir/uv/myig</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.be.fhir.template#current -&gt; fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at xxxhttp://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at xxxhttp://somewhere.org/fhir/uv/myig: unknown protocol: xxxhttp)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 32, errors = 9, warn = 7, info = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>36</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__ImplementationGuides_my-first-ig_fsh-generated_resources_CapabilityStatement-CapStatement-AllergyIntolerance"><b>C:\ImplementationGuides\my-first-ig\fsh-generated\resources\CapabilityStatement-CapStatement-AllergyIntolerance</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__ImplementationGuides_my-first-ig_fsh-generated_resources_StructureDefinition-be-allergyintolerance"><b>C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-be-allergyintolerance</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__ImplementationGuides_my-first-ig_fsh-generated_resources_StructureDefinition-my-communication"><b>C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-my-communication</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__ImplementationGuides_my-first-ig_input_myig"><b>C:\ImplementationGuides\my-first-ig\input\myig</b></a></td><td><b>3</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.name for the resource CapabilityStatement/CapStatement-AllergyIntolerance.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/CapStatement-AllergyIntolerance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.name for the resource Communication/AtoBCommunication1.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Communication/AtoBCommunication1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/be-allergyintolerance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>?pkp-1?</b></td><td><b>error</b></td><td title=""><b>The reference xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>?pkp-1?</b></td><td><b>error</b></td><td title=""><b>The reference xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/my-communication could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.change.history.html#828f981e-94f8-4055-af74-14a4daa82519">CapabilityStatement-CapStatement-AllergyIntolerance.change.history.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.html#2c5accba-03d1-4d29-98c7-2708043c2e08">CapabilityStatement-CapStatement-AllergyIntolerance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 204, column 547</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance' for &quot;xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.html#bce5dd79-a5a3-47ff-8206-537ba5cdede4">CapabilityStatement-CapStatement-AllergyIntolerance.html#/html/body/div/div/div/p/a at Line 231, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.json.html#0f2d5880-d6c5-4114-ba2f-bf345697f4e9">CapabilityStatement-CapStatement-AllergyIntolerance.json.html#/html/body/div/div/div/p/a at Line 285, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.ttl.html#1cdb3c56-a283-4240-a7e5-27ed9048435b">CapabilityStatement-CapStatement-AllergyIntolerance.ttl.html#/html/body/div/div/div/p/a at Line 289, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="CapabilityStatement-CapStatement-AllergyIntolerance.xml.html#7e3ccfd5-e932-4b4e-8b86-ae66bf68e46a">CapabilityStatement-CapStatement-AllergyIntolerance.xml.html#/html/body/div/div/div/p/a at Line 278, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Communication-AtoBCommunication1.change.history.html#f5fc31dd-bc0d-413f-807a-b97e84d7f480">Communication-AtoBCommunication1.change.history.html#/html/body/div/div/div/p/a at Line 235, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Communication-AtoBCommunication1.html#44aa4bf9-cc72-492f-af17-a93685fa8ac9">Communication-AtoBCommunication1.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Communication-AtoBCommunication1.json.html#82ca021a-4ee4-4240-aa77-3ddd70dc868f">Communication-AtoBCommunication1.json.html#/html/body/div/div/div/p/a at Line 242, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Communication-AtoBCommunication1.ttl.html#41fea874-ccbc-4b1f-8144-bf692f2cbe12">Communication-AtoBCommunication1.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="Communication-AtoBCommunication1.xml.html#28acaeab-5f94-4e70-8c5c-d07346fdb4de">Communication-AtoBCommunication1.xml.html#/html/body/div/div/div/p/a at Line 239, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance-definitions.html#046da86f-dcd5-435a-8a47-06516039cbd4">StructureDefinition-be-allergyintolerance-definitions.html#/html/body/div/div/div/p/a at Line 631, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance-examples.html#18c16aa2-711c-43da-aaf6-e3f89a8e8522">StructureDefinition-be-allergyintolerance-examples.html#/html/body/div/div/div/p/a at Line 267, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance-mappings.html#e1ddc517-cdbd-4fdd-b6b3-642c7d1de504">StructureDefinition-be-allergyintolerance-mappings.html#/html/body/div/div/div/p/a at Line 342, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance.html#707bb712-545f-4df2-9a9e-0f4ac3a89633">StructureDefinition-be-allergyintolerance.html#/html/body/div/div/div/p/a at Line 726, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance.profile.history.html#71cbec00-cb4a-4417-83bd-ae5b7f891cdf">StructureDefinition-be-allergyintolerance.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance.profile.json.html#85e6d336-8bb0-4118-9c59-7474b5a651b7">StructureDefinition-be-allergyintolerance.profile.json.html#/html/body/div/div/div/p/a at Line 2062, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance.profile.ttl.html#40aae3f8-1f66-4c05-9a55-d9271cdb0c11">StructureDefinition-be-allergyintolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1866, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-be-allergyintolerance.profile.xml.html#c37ccd2e-fa26-406b-acaa-234517c49e0b">StructureDefinition-be-allergyintolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 1885, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication-definitions.html#3993b979-6b85-4e88-b35a-94df40fb05ad">StructureDefinition-my-communication-definitions.html#/html/body/div/div/div/p/a at Line 602, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication-examples.html#3736342d-5c08-4fa5-aaef-17abaea1f62a">StructureDefinition-my-communication-examples.html#/html/body/div/div/div/p/a at Line 267, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication-mappings.html#8cca9203-d02c-4fb9-96ee-75c773e3c73a">StructureDefinition-my-communication-mappings.html#/html/body/div/div/div/p/a at Line 320, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication.html#66fd002c-9cc1-48bb-8d60-98838ae59da2">StructureDefinition-my-communication.html#/html/body/div/div/div/p/a at Line 709, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication.profile.history.html#757beb82-3a38-4e18-b94a-9231f334d0ce">StructureDefinition-my-communication.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication.profile.json.html#5f2da526-c00b-46fa-8c64-1fa5dfa03965">StructureDefinition-my-communication.profile.json.html#/html/body/div/div/div/p/a at Line 1956, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication.profile.ttl.html#2de77cd9-8c20-408c-bd42-cfc61c155a47">StructureDefinition-my-communication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1803, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-my-communication.profile.xml.html#db5c7067-2341-40e1-b31c-56877b2e0eb6">StructureDefinition-my-communication.profile.xml.html#/html/body/div/div/div/p/a at Line 1749, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#64feadbe-074b-45c9-901f-0d19425a805e">artifacts.html#/html/body/div/div/div/p/a at Line 259, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="changes.html#1b573b6e-7104-4a58-bd41-c0e5c0faeefe">changes.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="downloads.html#9133ab13-b082-4b58-9c6d-8d1848d32d03">downloads.html#/html/body/div/div/div/p/a at Line 218, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="index.html#f805f0ba-e17d-4133-84cc-a5e15e295271">index.html#/html/body/div/div/div/p/a at Line 208, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#365329ce-ddf1-4095-80dc-b402b7109c16">toc.html#/html/body/div/div/div/p/a at Line 171, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__ImplementationGuides_my-first-ig_fsh-generated_resources_CapabilityStatement-CapStatement-AllergyIntolerance"> </a>
+<h2><a href="CapabilityStatement-CapStatement-AllergyIntolerance.html">C:\ImplementationGuides\my-first-ig\fsh-generated\resources\CapabilityStatement-CapStatement-AllergyIntolerance.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement</b></td><td><b>warning</b></td><td title="cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement</b></td><td><b>error</b></td><td title="cpb-2: A Capability Statement SHALL have at least one of description, software, or implementation element. [(description.count() + software.count() + implementation.count()) > 0]"><b>cpb-2: A Capability Statement SHALL have at least one of description, software, or implementation element. [(description.count() + software.count() + implementation.count()) &gt; 0]</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement.rest[0].resource[0].profile</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE"><b>Canonical URLs must be absolute URLs if they are not fragment references (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance) </b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__ImplementationGuides_my-first-ig_fsh-generated_resources_StructureDefinition-be-allergyintolerance"> </a>
+<h2><a href="StructureDefinition-be-allergyintolerance.html">C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-be-allergyintolerance.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/be-allergyintolerance: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__ImplementationGuides_my-first-ig_fsh-generated_resources_StructureDefinition-my-communication"> </a>
+<h2><a href="StructureDefinition-my-communication.html">C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-my-communication.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/my-communication: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/my-communication')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__ImplementationGuides_my-first-ig_input_myig"> </a>
+<h2><a href="ImplementationGuide-xxxexample.fhir.uv.myig.html">C:\ImplementationGuides\my-first-ig\input\myig.xml</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource C:\ImplementationGuides\my-first-ig\input\myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ImplementationGuide.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide</b></td><td><b>warning</b></td><td title="ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>C:\ImplementationGuides\my-first-ig\input\myig</b></td><td><b>error</b></td><td title=""><b>URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig vs xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b>If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...</b></p><ul>
+ <li>WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner: The Implementation Guide contains no examples for this profile</li>
+ <li>WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation: The Implementation Guide contains no examples for this profile</li>
+</ul>
+<p><b>This is inherited from the base resource</b></p><ul>
+ <li>WARNING: StructureDefinition/myObservation: StructureDefinition.snapshot.element[15].mapping[3].map: value should not start or finish with whitespace</li>
+</ul>
+<p><b>We're expecting these to not match the slice - we're showing how you can use slicing to define the one repetition you want even when many repetitions might be present</b></p><ul>
+ <li>INFORMATION: Patient/example: Patient.name[1]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient</li>
+ <li>INFORMATION: Patient/example: Patient.name[0]: This element does not match any known slice defined in the profile http://somewhere.org/fhir/uv/myig/StructureDefinition/mypatient</li>
+</ul>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
+<h2>RESOURCE_CANONICAL_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-xxxexample.fhir.uv.myig.html">C:\ImplementationGuides\my-first-ig\input\myig.xml</a></td><td><b>Conformance resource C:\ImplementationGuides\my-first-ig\input\myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_ID_MISMATCH"> </a>
+<h2>RESOURCE_ID_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="ImplementationGuide-xxxexample.fhir.uv.myig.html">C:\ImplementationGuides\my-first-ig\input\myig.xml</a></td><td><b>Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE"> </a>
+<h2>TYPE_SPECIFIC_CHECKS_CANONICAL_ABSOLUTE</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-CapStatement-AllergyIntolerance.html">C:\ImplementationGuides\my-first-ig\fsh-generated\resources\CapabilityStatement-CapStatement-AllergyIntolerance.json</a></td><td><b>Canonical URLs must be absolute URLs if they are not fragment references (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance) </b></td>
+   </tr>
+</table>
+</body>
+</html>

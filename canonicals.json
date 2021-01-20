@@ -1,0 +1,29 @@
+[
+  {
+    "id": "CapStatement-AllergyIntolerance",
+    "type": "CapabilityStatement",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/CapabilityStatement/CapStatement-AllergyIntolerance",
+    "version": "0.1.0-test"
+  },
+  {
+    "id": "xxxexample.fhir.uv.myig",
+    "type": "ImplementationGuide",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+    "version": "0.1.0-test",
+    "name": "xxxYourComputableMyIGNameHere"
+  },
+  {
+    "id": "be-allergyintolerance",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance",
+    "version": "0.1.0-test",
+    "name": "BeAllergyIntolerance"
+  },
+  {
+    "id": "my-communication",
+    "type": "StructureDefinition",
+    "url": "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/my-communication",
+    "version": "0.1.0-test",
+    "name": "MyCommunication"
+  }
+]

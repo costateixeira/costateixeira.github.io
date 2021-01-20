@@ -1,0 +1,20 @@
+{
+  "resourceType": "Communication",
+  "id": "AtoBCommunication1",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><p><b>status</b>: completed</p><p><b>category</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/communication-category reminder}\">Reminder</span></p><p><b>priority</b>: urgent</p></div>"
+  },
+  "status": "completed",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/communication-category",
+          "code": "reminder"
+        }
+      ]
+    }
+  ],
+  "priority": "urgent"
+}

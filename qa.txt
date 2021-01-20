@@ -1,0 +1,73 @@
+﻿xxxYourComputableMyIGNameHere : Validation Results
+=========================================
+
+err = 9, warn = 7, info = 0
+IG Publisher Version: 1.1.57
+Generated Wed Jan 20 15:07:03 CET 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+
+ Build Errors : 36 / 3 / 0
+ C:\ImplementationGuides\my-first-ig\fsh-generated\resources\CapabilityStatement-CapStatement-AllergyIntolerance : 2 / 1 / 1
+ C:\ImplementationGuides\my-first-ig\fsh-generated\resources\Communication-AtoBCommunication1 : 0 / 0 / 1
+ C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-be-allergyintolerance : 0 / 1 / 1
+ C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-my-communication : 0 / 1 / 1
+ C:\ImplementationGuides\my-first-ig\input\myig : 3 / 1 / 1
+</table>
+== n/a ==
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource CapabilityStatement/CapStatement-AllergyIntolerance.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource CapabilityStatement/CapStatement-AllergyIntolerance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource Communication/AtoBCommunication1.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Communication/AtoBCommunication1.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/be-allergyintolerance.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: ?pkp-1?: The reference xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance could not be resolved
+ERROR: ?pkp-1?: The reference xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/my-communication could not be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.change.history.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 204, column 547: The link 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance' for "xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.json.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.ttl.html#/html/body/div/div/div/p/a at Line 289, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\CapabilityStatement-CapStatement-AllergyIntolerance.xml.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\Communication-AtoBCommunication1.change.history.html#/html/body/div/div/div/p/a at Line 235, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\Communication-AtoBCommunication1.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\Communication-AtoBCommunication1.json.html#/html/body/div/div/div/p/a at Line 242, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\Communication-AtoBCommunication1.ttl.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\Communication-AtoBCommunication1.xml.html#/html/body/div/div/div/p/a at Line 239, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance-definitions.html#/html/body/div/div/div/p/a at Line 631, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance-examples.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance-mappings.html#/html/body/div/div/div/p/a at Line 342, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance.html#/html/body/div/div/div/p/a at Line 726, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance.profile.json.html#/html/body/div/div/div/p/a at Line 2062, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance.profile.ttl.html#/html/body/div/div/div/p/a at Line 1866, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-be-allergyintolerance.profile.xml.html#/html/body/div/div/div/p/a at Line 1885, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication-definitions.html#/html/body/div/div/div/p/a at Line 602, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication-examples.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication-mappings.html#/html/body/div/div/div/p/a at Line 320, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication.html#/html/body/div/div/div/p/a at Line 709, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication.profile.history.html#/html/body/div/div/div/p/a at Line 256, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication.profile.json.html#/html/body/div/div/div/p/a at Line 1956, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication.profile.ttl.html#/html/body/div/div/div/p/a at Line 1803, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\StructureDefinition-my-communication.profile.xml.html#/html/body/div/div/div/p/a at Line 1749, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\artifacts.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\changes.html#/html/body/div/div/div/p/a at Line 182, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\downloads.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\index.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: C:\ImplementationGuides\my-first-ig\output\toc.html#/html/body/div/div/div/p/a at Line 171, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+== C:\ImplementationGuides\my-first-ig\fsh-generated\resources\CapabilityStatement-CapStatement-AllergyIntolerance.json ==
+INFORMATION: CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CapabilityStatement
+WARNING: CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement: cpb-2: A Capability Statement SHALL have at least one of description, software, or implementation element. [(description.count() + software.count() + implementation.count()) > 0]
+ERROR: CapabilityStatement/CapStatement-AllergyIntolerance: CapabilityStatement.rest[0].resource[0].profile: Canonical URLs must be absolute URLs if they are not fragment references (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance) 
+== C:\ImplementationGuides\my-first-ig\fsh-generated\resources\Communication-AtoBCommunication1.json ==
+INFORMATION: Communication/AtoBCommunication1: Communication: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Communication
+== C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-be-allergyintolerance.json ==
+INFORMATION: StructureDefinition/be-allergyintolerance: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/be-allergyintolerance'): The Implementation Guide contains no examples for this profile
+== C:\ImplementationGuides\my-first-ig\fsh-generated\resources\StructureDefinition-my-communication.json ==
+INFORMATION: StructureDefinition/my-communication: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/my-communication'): The Implementation Guide contains no examples for this profile
+== C:\ImplementationGuides\my-first-ig\input\myig.xml ==
+ERROR: ImplementationGuide.where(url = 'xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig'): Conformance resource C:\ImplementationGuides\my-first-ig\input\myig.xml - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig) does not match the URL (xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: xxxexample.fhir.uv.myig/xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
+INFORMATION: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+WARNING: ImplementationGuide/xxxexample.fhir.uv.myig: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: C:\ImplementationGuides\my-first-ig\input\myig: URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/xxxexample.fhir.uv.myig vs xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig
